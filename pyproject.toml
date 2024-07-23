@@ -1,0 +1,15 @@
+[project]
+name = "debug-agent"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "luozhouyang", email = "zhouyang.luo@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11.*"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+
+[tool.pdm]
+distribution = false
